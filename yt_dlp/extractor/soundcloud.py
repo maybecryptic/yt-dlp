@@ -331,7 +331,7 @@ class SoundcloudBaseIE(InfoExtractor):
                     }
                     if image_id == 'tiny' and not artwork_url:
                         size = 18
-                    elif image_id == 'original':
+                    elif image_id == 't500x500':
                         i['preference'] = 10
                     if size:
                         i.update({
