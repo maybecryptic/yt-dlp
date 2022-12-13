@@ -65,7 +65,7 @@ class SoundcloudBaseIE(InfoExtractor):
         't300x300': 300,
         'crop': 400,
         't500x500': 500,
-        'original': 0,
+        #'original': 0,
     }
 
     def _store_client_id(self, client_id):
